@@ -159,7 +159,7 @@ function App() {
             ))}
           </nav>
 
-          <a className="btn btn--primary btn--sm nav-cta" href="/TEJASVI-RESUME-FINAL.pdf" download>
+          <a className="btn btn--primary btn--sm nav-cta" href="/TEJASVI-RESUME-NEW.pdf" download>
             Resume
           </a>
 
@@ -381,7 +381,7 @@ function App() {
               <a href="https://github.com/tejas01g" target="_blank" rel="noreferrer" className="iconlink">GitHub</a>
               <a href="https://linkedin.com/in/tejasvigarg" target="_blank" rel="noreferrer" className="iconlink">LinkedIn</a>
               <a href="https://youtube.com/@tejasviyt" target="_blank" rel="noreferrer" className="iconlink">YouTube</a>
-              <a href="/TEJASVI-RESUME-FINAL.pdf" download className="iconlink">Resume</a>
+              <a href="/TEJASVI-RESUME-NEW.pdf" download className="iconlink">Resume</a>
             </div>
           </div>
         </section>
