@@ -159,7 +159,7 @@ function App() {
             ))}
           </nav>
 
-          <a className="btn btn--primary btn--sm nav-cta" href="/Tejasvi_Garg_Resume.docx" download>
+          <a className="btn btn--primary btn--sm nav-cta" href="/TEJASVI-RESUME-FINAL.pdf" download>
             Resume
           </a>
 
@@ -197,7 +197,7 @@ function App() {
                 <span className="hero__title-accent"> products that ship.</span>
               </h1>
               <p className="hero__desc">
-                I'm Tejasvi — a React Native &amp; full-stack developer from Meerut, India.
+                I'm Tejasvi — a React Native &amp; full-stack developer from Hapur, India.
                 MCA 2026 graduate, promoted from intern to full-time mobile developer in
                 three months. I build with AI-native tools — Claude Code, Cursor, and
                 Gemini — to ship production apps faster without cutting corners.
@@ -212,7 +212,7 @@ function App() {
               </div>
 
               <div className="hero__meta">
-                <div className="meta__item"><strong>Meerut, India</strong><span>Based in</span></div>
+                <div className="meta__item"><strong>Hapur, India</strong><span>Based in</span></div>
                 <div className="meta__divider" />
                 <div className="meta__item"><strong>github.com/tejas01g</strong><span>GitHub</span></div>
                 <div className="meta__divider" />
@@ -312,7 +312,7 @@ function App() {
           <div className="about">
             <div className="about__text">
               <p>
-                I'm a React Native and full-stack developer based in Meerut, India —
+                I'm a React Native and full-stack developer based in Hapur, India —
                 an MCA 2026 graduate from SRM University. I started as an intern at
                 Vimovi Global Tech and was promoted to full-time Mobile App Developer
                 within three months, building Pyngyn, a SaaS project-management app,
@@ -373,15 +373,15 @@ function App() {
               Hiring a React Native or AI app developer? Got a product idea?
               I'd love to hear about it.
             </p>
-            <a className="cta__email" href="mailto:hello@tejasvigarg.dev">
-              hello@tejasvigarg.dev
+            <a className="cta__email" href="mailto:gargtejasvi076@gmail.com">
+              gargtejasvi076@gmail.com
             </a>
 
             <div className="cta__links">
               <a href="https://github.com/tejas01g" target="_blank" rel="noreferrer" className="iconlink">GitHub</a>
               <a href="https://linkedin.com/in/tejasvigarg" target="_blank" rel="noreferrer" className="iconlink">LinkedIn</a>
               <a href="https://youtube.com/@tejasviyt" target="_blank" rel="noreferrer" className="iconlink">YouTube</a>
-              <a href="/Tejasvi_Garg_Resume.docx" download className="iconlink">Resume</a>
+              <a href="/TEJASVI-RESUME-FINAL.pdf" download className="iconlink">Resume</a>
             </div>
           </div>
         </section>
