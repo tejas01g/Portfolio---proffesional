@@ -24,12 +24,12 @@ const PROJECTS = [
       'Content moderation via Groq + Google Cloud Vision',
       'OTA update strategy and an IST-aware streak system',
     ],
-    github: 'https://github.com/tejas01g/devsocial',
+    // github: 'https://github.com/tejas01g/devsocial',
     demoVideo: 'https://drive.google.com/file/d/1QHK8-VxV00SKLDHF7Z3AxE-bw2JFO8vR/view?usp=drivesdk',
   },
   {
     tag: 'Featured',
-    name: 'Expensr',
+    name: 'AI-Expensr',
     status: 'In Build',
     statusType: 'build',
     year: '2025 — Present',
@@ -42,7 +42,7 @@ const PROJECTS = [
       'Per-month Firestore budget documents',
       'Fully typed service and screen layer',
     ],
-    github: 'https://github.com/tejas01g/expensr',
+    github: 'https://github.com/tejas01g/AI-Expense-Tracker',
     demoVideo: 'https://drive.google.com/file/d/YOUR_EXPENSR_FILE_ID/preview',
   },
   {
@@ -59,7 +59,7 @@ const PROJECTS = [
       'Framer Motion micro-interactions throughout',
       'Resolved cross-browser z-index and scroll issues',
     ],
-    github: 'https://github.com/tejas01g/portfolio',
+    github: 'https://github.com/tejas01g/Portfolio---proffesional',
     demoVideo: 'https://drive.google.com/file/d/YOUR_PORTFOLIO_FILE_ID/preview',
   },
 ]
@@ -323,9 +323,7 @@ function App() {
                 and Expensr both run on Firebase architecture I designed myself,
                 security rules included. I lean heavily on AI-assisted development —
                 Claude Code and Cursor for implementation, prompt engineering to get
-                consistent results from LLM APIs in production. I also co-authored a
-                research paper on Scalable General AI (SGAI) Systems, and document
-                the build process on YouTube.
+                consistent results from LLM APIs in production.
               </p>
             </div>
 
@@ -344,13 +342,13 @@ function App() {
                   <span>Vimovi Global Tech Pvt. Ltd.</span>
                 </div>
               </div>
-              <div className="fact">
+              {/* <div className="fact">
                 <span className="fact__icon">📄</span>
                 <div>
                   <strong>Co-author, research paper</strong>
                   <span>Scalable General AI (SGAI) Systems</span>
                 </div>
-              </div>
+              </div> */}
               <div className="fact">
                 <span className="fact__icon">🛠️</span>
                 <div>
