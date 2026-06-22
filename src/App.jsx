@@ -342,13 +342,6 @@ function App() {
                   <span>Vimovi Global Tech Pvt. Ltd.</span>
                 </div>
               </div>
-              {/* <div className="fact">
-                <span className="fact__icon">📄</span>
-                <div>
-                  <strong>Co-author, research paper</strong>
-                  <span>Scalable General AI (SGAI) Systems</span>
-                </div>
-              </div> */}
               <div className="fact">
                 <span className="fact__icon">🛠️</span>
                 <div>
