@@ -43,7 +43,7 @@ const PROJECTS = [
       'Fully typed service and screen layer',
     ],
     github: 'https://github.com/tejas01g/AI-Expense-Tracker',
-    demoVideo: 'https://drive.google.com/file/d/YOUR_EXPENSR_FILE_ID/preview',
+    // demoVideo: 'https://drive.google.com/file/d/YOUR_EXPENSR_FILE_ID/preview',
   },
   {
     tag: 'Web',
@@ -262,13 +262,16 @@ function App() {
                   {p.stack.map((s) => <span className="chip" key={s}>{s}</span>)}
                 </div>
 
+
                 <div className="project-card__actions">
-                  <button
-                    className="btn btn--primary btn--sm project-action"
-                    onClick={() => setActiveDemo(p)}
-                  >
-                    <PlayIcon /> Live Demo
-                  </button>
+                  {p.demoVideo && !p.demoVideo.includes('YOUR_') && (
+                    <button
+                      className="btn btn--primary btn--sm project-action"
+                      onClick={() => setActiveDemo(p)}
+                    >
+                      <PlayIcon /> Live Demo
+                    </button>
+                  )}
                   <a
                     className="btn btn--ghost btn--sm project-action"
                     href={p.github}
